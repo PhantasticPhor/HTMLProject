@@ -59,11 +59,15 @@ h1 {
             }
 
 /* ----MARC STYLES---- */
+#navmenu {
+  background-color: #F6EDA9;
+  padding:10px 10px 10px -10px;
+  height:100px;
 
+}
 #navmenu ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 5px 10px 10px 10px;
   overflow: hidden;
   background-color: #333333;
 }
@@ -83,6 +87,7 @@ h1 {
 #navmenu li a:hover {
   background-color: #111111;
 }
+
 
 
 
