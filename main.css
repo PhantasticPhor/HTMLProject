@@ -87,9 +87,12 @@ h1 {
 #navmenu li a:hover {
   background-color: #111111;
 }
-
-
-
-
+ 
+.navtext {
+  font-size: 20;
+  width: 409px;
+  height: 776px;
+  float: right;
+}
 
             
