@@ -1,10 +1,60 @@
 
 html {
-    background-color:#ECBEAB;
+    background-color:#066DA5;
     font-family:'Arial', Arial, sans-serif,;
-    font-size: 62.5%
+    font-size: 90%
 }
 
 body {
     line-height: 1.4;
 }
+
+h1 {
+     text-align: center;
+     font-size: 2.8rem;
+     font-weight:400;
+     line-height:2rem;
+ }
+
+/* Page Layout */
+#Page {
+    width:960px;
+    margin:1.5rem auto;
+}
+
+#banner {
+    background-color:#3697CB;
+    border-radius:50px;
+    box-shadow:5px 5px 5px #F9FFFD;
+    padding:1rem 1rem 0 1rem;
+    margin-bottom:1.5rem;
+    height:100px;
+}
+
+    #banner nav {
+        float:unset;
+        background-color:#FFE8D3;
+        margin:60px 60px 0 60px;
+        border-radius:30px;
+        padding:0.5rem 0;
+        /*overflow:auto;*/
+    }
+
+    #banner nav ul {
+        text-align:center;
+    }
+
+    #banner nav li {
+        display:inline;
+    }
+
+    #banner nav a {
+        color:#FA949B;
+        padding:1.0rem 2.0rem;
+    }
+
+    #banner nav a:hover {
+        color:#FFF203;
+        background-color:#FF7C07;
+        padding:10px;
+    }
