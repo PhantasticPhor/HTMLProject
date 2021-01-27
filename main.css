@@ -16,6 +16,11 @@ h1 {
      line-height:2rem;
  }
 
+ p {
+     text-align:center;
+     padding: 5rem 0;
+ }
+
 /* Page Layout */
 #Page {
     width:960px;
@@ -24,37 +29,32 @@ h1 {
 
 #banner {
     background-color:#3697CB;
-    border-radius:50px;
-    box-shadow:5px 5px 5px #F9FFFD;
-    padding:1rem 1rem 0 1rem;
+    padding:1rem 2rem 0 2rem;
     margin-bottom:1.5rem;
     height:100px;
 }
 
-    #banner nav {
-        float:unset;
-        background-color:#FFE8D3;
-        margin:60px 60px 0 60px;
-        border-radius:30px;
-        padding:0.5rem 0;
-        /*overflow:auto;*/
-    }
-
-    #banner nav ul {
-        text-align:center;
-    }
-
-    #banner nav li {
-        display:inline;
-    }
-
-    #banner nav a {
-        color:#FA949B;
-        padding:1.0rem 2.0rem;
-    }
-
-    #banner nav a:hover {
-        color:#FFF203;
-        background-color:#FF7C07;
-        padding:10px;
-    }
+            #banner nav ul {
+              list-style-type: none;
+              margin: 5px 60px 0 60px;
+              padding: 0.15rem 0;
+              overflow: hidden;
+              background-color: #333333;
+            }
+            
+            #banner nav li {
+              float: left;
+            }
+            
+            #banner nav li a {
+              display: block;
+              color: #F9FFFD;
+              text-align: center;
+              padding: 16px;
+              text-decoration: none;
+            }
+            
+            #banner nav li a:hover {
+              background-color: #010E29
+            }
+            
