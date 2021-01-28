@@ -57,4 +57,63 @@ h1 {
             #banner nav li a:hover {
               background-color: #010E29
             }
-            
+
+/* ----MARC STYLES---- */
+#navmenu {
+  background-color: #F6EDA9;
+  padding:10px 10px 10px -10px;
+  height:100px;
+
+}
+#navmenu ul {
+  list-style-type: none;
+  margin: 5px 10px 10px 10px;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+#navmenu li {
+  float: left;
+}
+
+#navmenu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+#navmenu li a:hover {
+  background-color: #111111;
+}
+
+.headsize {
+  border-color: #F6EDA9;
+  border-width: 2px;
+  border-style: solid;
+  border: 10px 20px 10px 20px;
+  font-size: 30;
+  margin: 45px 0 0 0; 
+  text-align: center;
+  padding: 5px 0;
+}
+ 
+.navtext {
+  font-size: 20;
+  
+  height: 582px;
+  padding: 20px 0;
+  text-align: left;
+     
+}
+
+.imgsize {
+  font-size: 20;
+  width: 307px;
+  height: 582px;
+  padding: 20px 0;
+  float: right;
+     
+}
+   
