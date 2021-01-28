@@ -146,10 +146,9 @@ h1 {
 
 .torchNavText {
   font-size: 20;
-  
-  height: 582px;
-  padding: 20px 0;
-  text-align: left;
+  text-indent: 2.0em;
+  padding: 10px 0;
+  text-align: right;
      
 }
 >>>>>>> 78ac1fb7115d3eab9e6d346a8aca9e1d4f18afd5
