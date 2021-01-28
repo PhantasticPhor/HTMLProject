@@ -102,9 +102,8 @@ h1 {
  
 .navtext {
   font-size: 20;
-  
-  height: 582px;
-  padding: 20px 0;
+  text-indent: 2.0em;
+  padding: 10px 0;
   text-align: left;
      
 }
@@ -118,6 +117,13 @@ h1 {
      
 }
 
+<<<<<<< HEAD
+.aligntext {
+  text-align: center;
+  margin-top: -20px;
+}
+   
+=======
 /*Max - List*/ 
 
 #TorchBanner {
@@ -146,3 +152,4 @@ h1 {
   text-align: left;
      
 }
+>>>>>>> 78ac1fb7115d3eab9e6d346a8aca9e1d4f18afd5
