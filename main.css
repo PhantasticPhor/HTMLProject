@@ -102,9 +102,8 @@ h1 {
  
 .navtext {
   font-size: 20;
-  
-  height: 582px;
-  padding: 20px 0;
+  text-indent: 2.0em;
+  padding: 10px 0;
   text-align: left;
      
 }
@@ -116,5 +115,10 @@ h1 {
   padding: 20px 0;
   float: right;
      
+}
+
+.aligntext {
+  text-align: center;
+  margin-top: -20px;
 }
    
