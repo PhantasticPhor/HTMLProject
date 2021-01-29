@@ -16,6 +16,20 @@ h1 {
      line-height:2rem;
  }
 
+h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 300;
+  line-height:2rem;
+}
+
+h4 {
+  text-align: left;
+  font-size: 1.6rem;
+  font-weight: 180;
+  line-height: 2rem;
+}
+
  p {
      text-align:center;
      padding: 5rem 0;
@@ -24,39 +38,44 @@ h1 {
 /* Page Layout */
 #Page {
     width:960px;
-    margin:1.5rem auto;
+    margin:30px auto;
 }
 
 #banner {
     background-color:#3697CB;
-    padding:1rem 2rem 0 2rem;
+    padding:1rem 1.5rem 0 1.5rem;
     margin-bottom:1.5rem;
     height:100px;
 }
 
-            #banner nav ul {
-              list-style-type: none;
-              margin: 5px 60px 0 60px;
-              padding: 0.15rem 0;
-              overflow: hidden;
-              background-color: #333333;
-            }
+    #banner nav ul {
+      list-style-type: none;
+      margin: 5px 60px 0 60px;
+      padding: 0.15rem 0;
+      overflow: hidden;
+      background-color: #333333;
+    }
             
-            #banner nav li {
-              float: left;
-            }
+    #banner nav li {
+      float: left;
+    }
             
-            #banner nav li a {
-              display: block;
-              color: #F9FFFD;
-              text-align: center;
-              padding: 16px;
-              text-decoration: none;
-            }
+    #banner nav li a {
+      display: block;
+      color: #F9FFFD;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+    }
             
-            #banner nav li a:hover {
-              background-color: #010E29
-            }
+    #banner nav li a:hover {
+      background-color: #010E29
+    }
+
+#HomePage {
+  background-color:#F9FFFD;
+  padding:0px 10px 10px 30px;
+}
 
 /* ----MARC STYLES---- */
 #navmenu {
@@ -116,14 +135,13 @@ h1 {
   float: right;
      
 }
-
-<<<<<<< HEAD
+HEAD
 .aligntext {
   text-align: center;
   margin-top: -20px;
 }
    
-=======
+/*=======*/
 /*Max - List*/ 
 
 #TorchBanner {
@@ -156,4 +174,3 @@ h1 {
   width:1200px;
   margin:1.5rem auto;
 }
->>>>>>> 78ac1fb7115d3eab9e6d346a8aca9e1d4f18afd5
