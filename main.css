@@ -188,11 +188,28 @@ HEAD
      
 }
 
+.torchImgSizeRight {
+  font-size: 20;
+  width: 200px;
+  height: 379.15px;
+  padding: 20px 0 0 0;
+  float: right;
+     
+}
+
 .torchNavText {
   font-size: 20;
   text-indent: 2.0em;
   padding: 10px 0;
   text-align: right;
+     
+}
+
+.torchNavTextLeft {
+  font-size: 20;
+  text-indent: 2.0em;
+  padding: 10px 0;
+  text-align: left;
      
 }
 
