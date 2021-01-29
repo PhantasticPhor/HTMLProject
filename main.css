@@ -121,8 +121,8 @@ h4 {
 }
 
 .gifsize {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   float: left;
 }
 
@@ -163,7 +163,7 @@ h4 {
 }
 HEAD
 .aligntext {
-  text-align: center;
+  float: left;
   margin-top: -20px;
 }
    
