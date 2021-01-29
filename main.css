@@ -120,6 +120,19 @@ h4 {
   background-color: #111111;
 }
 
+.gifsize {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.gifsize2 {
+  width: 100px;
+  height: 100px;
+  float: right
+  padding: 0 0 0 -30px;
+}
+
 .headsize {
   color: white;
   border-color: #F6EDA9;
