@@ -35,6 +35,10 @@ h4 {
      padding: 5rem 0;
  }
 
+ em {
+   color: #FCE694;
+ }
+
 /* Page Layout */
 #Page {
     width:960px;
@@ -75,6 +79,15 @@ h4 {
 #HomePage {
   background-color:#F9FFFD;
   padding:0px 10px 10px 30px;
+}
+
+/* for tags.html */
+#imgInvisi {
+  margin-left: 325px;
+}
+
+#YoutubeVid {
+  padding-left: 260px;
 }
 
 /* ----MARC STYLES---- */
