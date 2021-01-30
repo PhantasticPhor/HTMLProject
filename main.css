@@ -133,11 +133,15 @@ h4 {
   height: 150px;
   float: left;
 }
+.gifsize2 {
+  float: center;
+}
 
 .tablesize {
   width: 100px;
   height: 100px;
   font-size: 30;
+  float: right;
   
 }
 
