@@ -4,9 +4,12 @@
         <meta charset="utf-8" />
         <title>nested html examples</title>
         <link rel="stylesheet" href="main.css">
+        <img src="phantastickPhorBanner.jpg.png" style="max-width:1200px;">
+        <!-- original img source: https://www.popshopguide.com/funko-pop-licenses/pop-marvel/fantastic-four/ -->
     </head>
 
     <body>
+        
         <div id="Page">
             <header id="banner">
                 <h1>Nested Examples</h1>
@@ -57,12 +60,14 @@
 
         
         <!-- Ariah's Nested Examples -->
+        <br >
         <h3>Ariah's Nested Examples</h3>
         <br >
+        <i><p style="font-size:larger; padding-top:1px;"><abbr title="Deoxyribonucleic Acid"><b><em>DNA</em></b></abbr> carries genetic information that gives a living organism's cells instructions on how to <em>grow</em>, <em>reproduce</em> and <em>function</em>.</p></i>
         <div id="ariahNested">
             <table style="width:60%">
                 <tr>
-                    <th colspan="4">DNA Components</th>
+                    <th colspan="4">DNA Nucleotides</th>
                 </tr>
                 <tr>
                     <td>Cytosine</td>
@@ -78,11 +83,34 @@
                 </tr>
             </table>
         </div>
-    </div>
+        
+        <div>
+            <form>
+                <h3>Can you guess which nucleotide picture represents Cytosine? <br />
+                    <input type="radio" id="thymine" name="nucleotide" value="thymine">
+                        <label for="thymine"><img src=Thymine.png style="height:200px;"></label>
+                    <input type="radio" id="adenine" name="nucleotide" value="adenine">
+                        <label for="adenine"><img src=Adenine.png style="height:200px;"></label>
+                    <input type="radio" id="cytosine" name="nucleotide" value="cytosine">
+                        <label for="cytosine"><img src=Cytosine.png style="height:200px;"></label>
+                </h3>
+            </form>
+        </div>
+
+        <br >
+        <footer>
+            <div style="display:flex; align-items:center;">
+                <button type="button"><picture>
+                    <source srcset="dna.png" media="(max-width:900px)">
+                        <img src="dna.png" alt="DNA" style="width:900px;">
+                </picture></button>
+            </div>
+        </footer>
+        <br >
+
+
 
         
-
-
- <!-- End -->
     </body>
+ <!-- End -->
 </html>
