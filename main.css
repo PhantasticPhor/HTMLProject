@@ -191,7 +191,7 @@ th, td {
 .headsize2 {
   color: #F6EDA9;
   font-size: 40;
-  text-align: center;
+  
 }
 
 .headsize3 {
@@ -219,6 +219,12 @@ th, td {
   float: right;
      
 }
+
+.imgsize2 {
+  width: 480px;
+  height: 320px;
+}
+
 HEAD
 .aligntext {
   float: left;
