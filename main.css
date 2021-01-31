@@ -148,6 +148,10 @@ h4 {
   color: violet;
 }
 
+#tagsize {
+  font-size: larger;
+}
+
 .gifsize {
   width: 150px;
   height: 150px;
@@ -188,6 +192,15 @@ th, td {
   color: #F6EDA9;
   font-size: 40;
   text-align: center;
+}
+
+.headsize3 {
+  color:yellow;
+  font-size: 40;
+  text-align: center;
+  border-style: dotted;
+  border-color: red;
+
 }
  
 .navtext {
