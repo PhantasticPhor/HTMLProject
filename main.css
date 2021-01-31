@@ -152,6 +152,15 @@ h4 {
   font-size: larger;
 }
 
+#noli {
+  list style: decimal-leading-zero;
+  font-size: 5rem;
+}
+
+#noli span {
+  font-size: 0.25em;
+}
+
 .gifsize {
   width: 150px;
   height: 150px;
@@ -190,8 +199,9 @@ th, td {
 
 .headsize2 {
   color: #F6EDA9;
-  font-size: 40;
-  
+  font-size: 50px;
+  padding-top: -20px;
+  text-align: left;
 }
 
 .headsize3 {
